@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.session{
+  -webkit-touch-callout: auto;
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+input{
+  -webkit-user-select: none;
+}
+
+#app{
+  height: 100vh;
+  position: relative;
+}
+
+a[href^=tel] {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+:root {
+  --bg-ident: #242429 url(../assets/images/ident_bg.jpg) 100% no-repeat;
+  --text: #fff;
+  --text2: #A8AAC3;
+  --text3: #B3B7CE;
+  --text4: #B3B7CE;
+  --bg: #242424;
+  --bg2: #34353F;
+  --bg3: #242424;
+  --bg4: #1B1B1F;
+  --right: #B3B7CE;
+  --tab: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.35);
+  --border2: #3A3A42;
+  --hr: #3A3A42;
+}
+
+:root[theme="light"]{
+  --bg-ident: #242429 url(../assets/images/ident_bg-light.jpg) 100% no-repeat;
+  --text: #363845;
+  --text2: #363845;
+  --text3: #363845;
+  --text4: #363845;
+  --bg: #E2E4F0;
+  --bg2: #fff;
+  --bg3: #fff;
+  --bg4: #fff;
+  --right: #616380;
+  --tab: #E2E4F0;
+  --border: rgba(0, 0, 0, 0.35);
+  --border2: #fff;
+  --hr: rgba(255,255,255,0.5);
+}
+
+html,body {
+  text-size-adjust: none !important;
+  -webkit-text-size-adjust: none !important;
+  -ms-text-size-adjust: none !important;
+  -moz-text-size-adjust: none !important;
+}
+
+body{
+  font-family: 'Golos Text', sans-serif !important;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.preloader{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  background: var(--bg);
+  gap: 20px;
+  &-text{
+    font-size: 12px;
+    line-height: 135%;
+    color: var(--text);
+  }
+  &-img{
+    animation: rotate 5s infinite;
+  }
+}
+
+.container{
+    padding: 0 20px;
+}
+
+.ident{
+    background: var(--bg-ident);
+    background-size: cover;
+    background-position: center;
+}
+
+.offcanvas-body p{
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+.offcanvas-header{
+  padding: 20px 20px 10px;
+}
+
+.offcanvas-body{
+  padding: 10px 20px 20px;
+}
+
+.offcanvas-title{
+  font-size: 18px;
+  padding-bottom: 0;
+}
+
+.modal-dialog{
+  margin: 0 28px;
+}
+
+.modal-content{
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.cmodal-title{
+  color: #363845;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 15px;
+}
+
+.cmodal-hr{
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.10);
+  margin-bottom: 15px;
+}
+
+.cmodal-des{
+  font-size: 14px;
+  color: #363845;
+  margin-bottom: 15px;
+}
+
+.cmodal-btn{
+  background: linear-gradient(0deg,#0073ff,#00c2ff);
+  height: 40px;
+  border-radius: 10px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.pmodal-title{
+  color: #363845;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pmodal-hr{
+  background: rgba(0, 0, 0, 0.10);
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+}
+
+.pmodal-des{
+  font-size: 14px;
+  color: #363845;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.pmodal-code{
+  position: relative;
+  margin-bottom: 17px;
+}
+
+.pmodal-code>input{
+  width: 100%;
+  font-size: 20px;
+  color: #363845;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: #E2E4F0;
+  justify-content: center;
+  height: 36px;
+}
+
+.pmodal-code-icon{
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  background: none;
+  border: 0;
+  height: 20px;
+  img{
+    vertical-align: top;
+  }
+}
+
+.modal-backdrop{
+  position: inherit;
+}
+
+.offcanvas.offcanvas-bottom{
+  height: 66vh;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.amodal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(36, 36, 41, 0.60);
+  background-color: rgba(36, 36, 41, 0.60);
+  transition: 0.5s;
+}
+
+.amodal-content {
+  height: auto;
+  background-color: #fefefe;
+  width: calc(100% - 40px);
+  transition: 0.5s;
+  border-radius: 5px;
+  position: relative;
+}
+
+.amodal-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.amodal-header>button{
+  color: #fff;
+  background: #000;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.amodal-body{
+  padding: 20px;
+  text-align: center;
+}

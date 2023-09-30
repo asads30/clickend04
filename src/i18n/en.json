@@ -1,0 +1,119 @@
+{
+    "stock": "Promotion",
+    "preloader": "Loading data...",
+    "preloader2": "Coming soon!",
+    "modal": {
+        "title": "Congratulations!",
+        "title2": "You have become a participant",
+        "title3": "of our action!",
+        "des": "You have 2 chance to participate in the main prize draw",
+        "des2": "You have 1 chance to participate in the main prize draw",
+        "done": "Amazing",
+        "notscore": {
+            "title": "Want to try your luck again?",
+            "des": "Invite friends using your promo code and you will get +1 chance and +1 opportunity to spin the wheel"
+        }
+    },
+    "home": {
+        "home1": "You're a campaigner",
+        "home2": "My prizes",
+        "home3": "Chances for the",
+        "home3-2" : "main prize draw",
+        "home4": "Main Prizes",
+        "home5": "More",
+        "home6": "Super prize",
+        "home7": "Invite your friends and increase",
+        "home7-2": "your chances to win",
+        "home8": "To invite a friend",
+        "home9": "Try your luck",
+        "live": "Live"
+    },
+    "start": {
+        "start1": "Click is giving away BYD",
+        "start1-1": "and many other prizes",
+        "start2": "I have a",
+        "start2-1": "promo code",
+        "start3": "I learned about the",
+        "start3-1": "promotion on my own",
+        "start4": "Enter a promo code from a friend to increase your chances of winning!",
+        "start5": "chance to participate",
+        "start6": "chance to spin the wheel",
+        "start7": "By clicking the Participate in the promotion button, you agree to the",
+        "start8": "terms",
+        "start9": "of the «ID Marathon» promotion",
+        "start10": "After clicking you get:",
+        "start11": "Participate in the promotion",
+        "start12": "Enter the invitation code"
+    },
+    "chances": {
+        "chance1": "Total quantity",
+        "chance2": "This is where all your chances in the main prize draw are stored. Invite your friends to join the action for even more chances!",
+        "chance3": "My chances",
+        "search": "Search for chances",
+        "search2": "Search"
+    },
+    "ident": {
+        "ident1": "Click is giving away a BYD Song Plus car and many other prizes!",
+        "ident2": "To participate in the promotion, you must be identified in Click",
+        "ident3": "Start identification"
+    },
+    "prizes": {
+        "prize1": "Promo code",
+        "prize2": "Details of the Prize",
+        "prize3": "Copy",
+        "prize4": "Main page",
+        "yandex": "Yandex Station",
+        "not": "You don't have any prizes yet. Spin the wheel of fortune to get a guaranteed prize, as well as accumulate chances to get one of the main prizes!",
+        "more": "Load more",
+        "chances": "Chances",
+        "prizes": "Prizes"
+    },
+    "referall": {
+        "title": "My invitations",
+        "btn1": "Invite",
+        "ref1": "Invite friends and increase your chances",
+        "ref2": "If your friend enters your promo code, you will get +1 chance to participate and an additional opportunity to spin the wheel of fortune.",
+        "ref3": "Your invitation code",
+        "ref4": "Select",
+        "ref5": "To invite a friend",
+        "ref6": "You invited",
+        "ref7": "users",
+        "ref8": "Select and copy the promo code to share with a friend",
+        "not": "Your invited friends will be displayed here.",
+        "push": "Notification of invitations",
+        "push2": "You have successfully invited a friend! Now you have +1 chance to participate in the promotion and the opportunity to spin the wheel of fortune!"
+    },
+    "super": {
+        "title": "Main Prizes",
+        "des": "The main prizes will be drawn using a live random number generator among all participants of the promotion every 2 weeks. On the 8th week of the promotion, the main prize will be drawn - a BYD car. The greater the number of accumulated chances, the higher the probability of becoming the winner of the main prizes"
+    },
+    "wheel": {
+        "title": "Wheel of Fortune",
+        "title2": "Spin the wheel of fortune and get guaranteed prizes!",
+        "des": "You can spin the wheel once a week and every time your friends have signed up with your promo code.",
+        "modal1": "You almost won!",
+        "modal2": "chances to participate<br />in the main prize draw",
+        "modal3": "Get an award",
+        "modal4": "Congratulations! You have won!",
+        "modal5": "Wow! Your chances are doubled!",
+        "modal6": "2X of all available chances to participate in the main prize draw",
+        "modal7": "5000 soums to your<br />Click-wallet",
+        "modal8": "Promo code from<br />Uzum Market",
+        "modal9": "Now you have even more chances to participate!",
+        "modal10": "Free Premium subscription<br />for 30 days",
+        "modal11": "You have another chance to win!",
+        "modal12": "Sector «Twist again»",
+        "modal13": "You have the opportunity to spin the wheel again!",
+        "info": "About the wheel of fortune",
+		"prize1": "Chance<br />to participate",
+		"prize2": "Gift from<br />Uzum Market",
+		"prize3": "Premium<br />subscription<br />for 30 days",
+		"prize4": "Sector<br />twist again",
+		"prize5": "Prizes from<br />our partners",
+		"prize6": "5000 soums<br />to Click wallet",
+		"prize7": "of all<br />chances",
+        "spin": "Spin",
+        "spin_again": "Spin again",
+        "error": "Something went wrong. Try again later"
+    }
+}
